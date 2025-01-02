@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Home from "./assets/home";
 import Cover from "./assets/cover";
-import Czero from "./assets/Czero";
+import Czero from "./assets/czero";
 export default function App() {
   const [ currentPage, setPage] = useState(0);
   const onNext = () => {
@@ -10,8 +10,8 @@ export default function App() {
     }
   }
   const onBack = () => {
-    if(currentPage > 0) {
-      setPage(currentPage-1);
+    if(currentPage > 0.5) {
+      setPage(currentPage-0.5);
     }
   }
   const renderPage = () => {
@@ -21,13 +21,17 @@ export default function App() {
         case 0.5:
             return <Cover onNext={onNext}/>
         case 1:
-            return <Czero onNext={onNext}/>
+            return <Czero onNext={onNext} onBack={onBack}/>
+        case 1.5:
+            return <Czero onNext={onNext} onBack={onBack}/>
+        case 2:
+            return <Czero onNext={onNext} onBack={onBack}/>
     }
 
 }
 
   return(
-    <div>
+    <div className="h-screen">
       {renderPage()}
     </div>
   ); 
