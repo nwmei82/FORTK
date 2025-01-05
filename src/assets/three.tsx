@@ -1,9 +1,9 @@
-interface czeroProps{
+interface threeProps{
     onNext: () => void;
     onBack: () => void;
 }
 
-export default function Czero({onNext,onBack}:czeroProps){
+export default function Three({onNext,onBack}:threeProps){
     return(
         <div className="bg-pink-300 h-screen flex items-center justify-center">
             <div className="grid grid-cols-2 items-center w-full h-2/3 max-w-4xl px-4">
