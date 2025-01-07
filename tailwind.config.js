@@ -10,7 +10,12 @@ module.exports = {
       backgroundImage: {
         'bgs': "url('/bgt.jpg')",
         'cov': "url('/cover.jpg')",
-        'pap': "url('/paper.jpg')"
+        'pap': "url('/paper.jpg')",
+        'bgt': "url('/bgtest.jpg')",
+        'bgt2': "url('/bgt2.jpg')",
+        'bgt3': "url('/bg3.jpg')",
+        'bgt4': "url('/bgt4.jpg')",
+        'bgt5': "url('/bgt5.jpg')",
        }
     },
   },
