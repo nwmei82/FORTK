@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Home from "./assets/home";
-import Cover from "./assets/cover";
+import Covert from "./assets/covert";
 import Zero from "./assets/zero";
 import One from "./assets/one";
 import Two from "./assets/two";
@@ -21,15 +21,15 @@ export default function App() {
   const renderPage = () => {
     switch (currentPage) {
         case 0:
-            return <Home onNext={onNext}/>
+            return <Covert onNext={onNext}/>
         case 1:
-            return <Cover onNext={onNext}/>
-        case 2:
             return <Zero onNext={onNext} onBack={onBack}/>
-        case 3:
+        case 2:
             return <One onNext={onNext} onBack={onBack}/>
-        case 4:
+        case 3:
             return <Two onNext={onNext} onBack={onBack}/>
+        case 4:
+            return <Three onNext={onNext} onBack={onBack}/>
         case 5:
             return <Three onNext={onNext} onBack={onBack}/>
     }

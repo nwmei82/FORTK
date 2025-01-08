@@ -4,7 +4,7 @@ interface coverProps{
 export default function Cover({onNext}:coverProps){
 
     return(
-        <div className="bg-bgt3 bg-cover h-screen flex items-center justify-center">
+        <div className="bg-bgs bg-cover h-screen flex items-center justify-center">
             <div className="grid grid-cols-2 items-center gap-4 w-2/3 h-2/3  py-6 px-4">
                 <div className="font-mitr text-3xl text-center block items-center justify-center">
                     <p> Happy Aniversary kub babe</p>
