@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Home from "./assets/home";
 import Covert from "./assets/covert";
 import Zero from "./assets/zero";
 import One from "./assets/one";
