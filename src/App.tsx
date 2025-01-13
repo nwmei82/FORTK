@@ -13,7 +13,7 @@ export default function App() {
     }
   }
   const onBack = () => {
-    if(currentPage > 1) {
+    if(currentPage >= 1) {
       setPage(currentPage-1);
     }
   }

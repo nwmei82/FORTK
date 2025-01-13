@@ -9,7 +9,7 @@ export default function Covert({ onNext }: covertProps) {
                 <h1 className="text-white text-3xl font-mitr mt-2">Happy Anniversary kub babe</h1>
                 <p className="text-white text-3xl font-mitr mt-2">Love U mumu</p>
                 <div className="flex items-center justify-center mt-6">
-                    <img src="/coverp.png" alt="Cover" className="w-3/6 h-auto shadow-lg" />
+                    <img src="/coverp.png" alt="Cover" className="w-3/6 h-auto" />
                 </div>
             </div>
         </div>

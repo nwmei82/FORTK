@@ -16,6 +16,7 @@ module.exports = {
         'bgt3': "url('/bg3.jpg')",
         'bgt4': "url('/bgt4.jpg')",
         'bgt5': "url('/bgt5.jpg')",
+        'bgt6': "url('/bgt6.gif')"
        }
     },
   },
